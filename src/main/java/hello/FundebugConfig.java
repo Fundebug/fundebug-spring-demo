@@ -12,6 +12,6 @@ import com.fundebug.SpringConfig;
 public class FundebugConfig {
 	@Bean
 	public Fundebug getBean() {
-		return new Fundebug("716b45610ebaee70faa193663a0aa03813d8fcbb5c1ee9201c0417e17ed5a728");
+		return new Fundebug("apikey");
 	}
 }
